@@ -1,0 +1,59 @@
+#body{
+  padding: 100px;
+
+}
+#main{
+  width:100%;
+  background-image: url("https://images.unsplash.com/photo-1676597633910-5a1894fc73be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"); no-repeat;
+}
+#title{
+  color: blue;
+  text-align: center;
+}
+
+#description{
+  color: aqua;
+  text-align: center;
+}
+#outer{
+   background-color: #FAF9F6 ;
+opacity: 0.9;
+}
+#survey-form{
+  text-align: center;
+
+
+
+  font-family: calibri;
+  font-size: 18px;
+
+
+}
+
+#name{
+  width: 50%;
+  padding: 10px 15px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+#email{
+  width: 50%;
+  padding: 10px 15px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+#number{
+  width: 50%;
+  padding: 10px 15px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+#dropdown{
+  width: 50%;
+  padding: 10px 15px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
