@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>Survey Form 
+  <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+  <div id="main">
+    <h1 id="title">FreeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+	<div id="outer">
+    <form id="survey-form">
+       <label for ="name" id ="name-label">Name</label> <br><input id ="name" type ="text" placeholder ="please enter your name" required><br>
+   <label for ="email" id ="email-label">Email</label><br>  <input id ="email" type ="email" placeholder ="please enter your email" required><br>
+     <label for ="number" id ="number-label">Number</label> <br><input id ="number" type ="number" placeholder ="please enter a number from 1 - 10" min ="1" max ="10"><br>
+ <select id = "dropdown">
+   <option>I am a student</option>
+   <option>I do full time job</option></select> <br>
+<p>Do you want to join Microverse?</p>
+   <input type = "radio" name = "radio-input" value = "yes"><label>Yes</label><br>
+   <input type = "radio" name = "radio-input" value = "no"><label>No</label><br>
+   <p>What languages would you like to learn?<p>
+ <input type = "checkbox" name = "HTML" value = "1"><label>HTML</label> <br> 
+ <input type = "checkbox" name = "CSS" value = "2"><label>CSS</label> <br>
+ <input type = "checkbox" name = "Javascript" value = "3"><label>Javascript</label> <br><br>
+ <p>Additional Comments</p>
+ <textarea></textarea><br><br>
+ <input type ="submit" id ="submit" value = "submit"></input>
+ </div>
+    </form>
+	</div>
+    </body></html>
